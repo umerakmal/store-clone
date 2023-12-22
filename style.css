@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+.outline{
+    outline: 2px solid blue;
+    outline-offset: 3px;
+}
+.gg button{
+    font-size: 10px;
+}
+.bg-img{
+    background-image: url(./images/main-banner.png);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% ;
+}
+.image img{
+    width: 100%;
+    height: 52px;
+    object-fit: contain;
+    margin-top: 10px;    
+}
+.h-230{
+    height: 180px;
+}
+.h-230 img{
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 576px) {
+    .font-s {
+        font-size: 0.9rem !important; 
+    }
+}
